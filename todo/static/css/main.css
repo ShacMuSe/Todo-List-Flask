@@ -1,0 +1,41 @@
+body{
+    margin: 6px;
+    font-family: sans-serif;
+    background-size: cover; /* or 'contain' depending on your preference */
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed; /* This will make the background fixed while scrolling */
+    /* Add more styling as needed */
+    
+}
+h1 {
+    text-align: center;
+    color: #820505; /* Choose your preferred color */
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+    text-align: center;
+    color:#000000;
+}
+
+form {
+    margin-top: 20px;
+}
+
+.content {
+    max-width: 500px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: rgba(255, 255, 255, 0.55); /* Add transparency to improve visibility */
+    border-radius: 20px;
+    box-shadow: 0 0 10px rgba(25, 13, 113, 0.828);
+}
+
+
+table td, table th {
+    padding: 10px;
+    border: 1px solid #ddd;
+}
